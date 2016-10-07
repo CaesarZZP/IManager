@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IDEA Workspace:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IDEA_Workspace_jar</output-path>
+    <root id="archive" name="IDEA Workspace.jar">
+      <element id="module-output" name="IDEA Workspace" />
+    </root>
+  </artifact>
+</component>

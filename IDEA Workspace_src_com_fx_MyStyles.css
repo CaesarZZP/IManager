@@ -1,0 +1,91 @@
+#leftButton1{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#leftButton1:hover{
+    -fx-background-color: #7ED0E5;
+    -fx-text-fill: #FFFFFF;
+}
+#leftButton2{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#leftButton2:hover{
+    -fx-background-color: #7ED0E5;
+    -fx-text-fill: #FFFFFF;
+}
+#leftButton3{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#leftButton3:hover{
+    -fx-background-color: #7ED0E5;
+    -fx-text-fill: #FFFFFF;
+}
+#leftButton4{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#leftButton4:hover{
+    -fx-background-color: #7ED0E5;
+    -fx-text-fill: #FFFFFF;
+}
+#button1InPane1{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#button1InPane1:hover{
+    -fx-background-color: #7ED0E5;
+    -fx-text-fill: #FFFFFF;
+}#button2InPane1{
+     -fx-background-color: #E3E3E3;
+     -fx-text-fill: #7b7b7b;
+ }
+#button2InPane1:hover{
+    -fx-background-color: #7ED0E5;
+    -fx-text-fill: #FFFFFF;
+}
+#dialogAButtonTrue{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#dialogAButtonTrue:hover{
+    -fx-background-color: #3EBB2B;
+    -fx-text-fill: #FFFFFF;
+}
+#dialogAButtonFalse{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#dialogAButtonFalse:hover{
+    -fx-background-color: #F6494D;
+    -fx-text-fill: #FFFFFF;
+}
+#pane1DialogBButtonTrue{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#pane1DialogBButtonTrue:hover{
+    -fx-background-color: #3EBB2B;
+    -fx-text-fill: #FFFFFF;
+}
+#pane1DialogBButtonFalse{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#pane1DialogBButtonFalse:hover{
+    -fx-background-color: #F6494D;
+    -fx-text-fill: #FFFFFF;
+}
+#searchButton{
+    -fx-background-color: #E3E3E3;
+    -fx-text-fill: #7b7b7b;
+}
+#searchButton:hover{
+    -fx-background-color: #6A9DF2;
+    -fx-text-fill: #FFFFFF;
+}
+
+#pane2ListView{
+    -fx-font-size: 20.0;
+}

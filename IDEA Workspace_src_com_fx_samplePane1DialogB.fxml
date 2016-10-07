@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane id="DialogBFlowPane" fx:id="fxDialogBFlowPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx.ControllerForPane1DialogB">
+   <children>
+      <Label prefHeight="40.0" prefWidth="638.0" text="活动内容" textFill="#7b7b7b">
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+         <font>
+            <Font name="Microsoft YaHei Bold" size="24.0" />
+         </font>
+         <FlowPane.margin>
+            <Insets bottom="5.0" top="10.0" />
+         </FlowPane.margin>
+      </Label>
+      <TextArea id="dialogBText1" fx:id="fxDialogBText1" prefHeight="200.0" prefWidth="606.0" promptText="例如:和朋友出去玩..">
+         <FlowPane.margin>
+            <Insets left="15.0" right="8.0" />
+         </FlowPane.margin>
+         <font>
+            <Font name="Microsoft YaHei" size="18.0" />
+         </font>
+      </TextArea>
+      <Label prefHeight="40.0" prefWidth="638.0" text="消费金额" textFill="#7b7b7b">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+         <FlowPane.margin>
+            <Insets top="15.0" />
+         </FlowPane.margin>
+      </Label>
+      <TextField id="dialogBText2" fx:id="fxDialogBText2" prefHeight="30.0" prefWidth="320.0" promptText="请输入有效数字">
+         <FlowPane.margin>
+            <Insets bottom="5.0" left="15.0" top="5.0" />
+         </FlowPane.margin>
+         <font>
+            <Font name="Microsoft YaHei" size="18.0" />
+         </font>
+      </TextField>
+      <Label prefHeight="40.0" prefWidth="638.0" text="备注" textFill="#7b7b7b">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="24.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+         <FlowPane.margin>
+            <Insets bottom="5.0" top="10.0" />
+         </FlowPane.margin>
+      </Label>
+      <TextArea id="dialogBText3" fx:id="fxDialogBText3" prefHeight="180.0" prefWidth="606.0" promptText="本次活动的意义，例如:认识了一些朋友">
+         <FlowPane.margin>
+            <Insets left="15.0" />
+         </FlowPane.margin>
+         <font>
+            <Font name="Microsoft YaHei" size="18.0" />
+         </font>
+      </TextArea>
+      <Region prefHeight="64.0" prefWidth="421.0">
+         <FlowPane.margin>
+            <Insets left="5.0" top="5.0" />
+         </FlowPane.margin>
+      </Region>
+      <Button id="pane1DialogBButtonTrue" fx:id="fxPane1DialogBButtonTrue" mnemonicParsing="false" onAction="#actionTrue" prefHeight="51.0" prefWidth="80.0" stylesheets="@MyStyles.css" text="确定">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="22.0" />
+         </font>
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" top="5.0" />
+         </FlowPane.margin>
+      </Button>
+      <Button id="pane1DialogBButtonFalse" fx:id="fxPane1DialogBButtonFalse" mnemonicParsing="false" onAction="#actionFalse" prefHeight="51.0" prefWidth="80.0" stylesheets="@MyStyles.css" text="取消">
+         <font>
+            <Font name="Microsoft YaHei Bold" size="22.0" />
+         </font>
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" top="5.0" />
+         </FlowPane.margin>
+      </Button>
+   </children>
+</FlowPane>

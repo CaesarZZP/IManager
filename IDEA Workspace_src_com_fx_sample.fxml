@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import com.fx.Controller.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1279.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx.Controller">
+   <left>
+      <VBox id="vbox1" fx:id="fxVbox1" prefHeight="767.0" prefWidth="215.0" BorderPane.alignment="CENTER">
+         <children>
+
+            <Button id="leftButton1" fx:id="fxLeftButton1" mnemonicParsing="false" onAction="#goToPane1" prefHeight="182.0" prefWidth="218.0" stylesheets="@MyStyles.css" text="当天消费登记" textFill="#7b7b7b">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="leftButton2" fx:id="fxLeftButton2" mnemonicParsing="false" onAction="#goToPane2" prefHeight="182.0" prefWidth="218.0" stylesheets="@MyStyles.css" text="日消费查询" textFill="#7b7b7b">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="leftButton3" fx:id="fxLeftButton3" mnemonicParsing="false" onAction="#goToPane3" prefHeight="182.0" prefWidth="218.0" stylesheets="@MyStyles.css" text="星期消费分析" textFill="#7b7b7b">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button id="leftButton4" fx:id="fxLeftButton4" mnemonicParsing="false" onAction="#goToPane4" prefHeight="182.0" prefWidth="218.0" stylesheets="@MyStyles.css" text="月消费分析" textFill="#7b7b7b">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <bottom>
+      <Label id="label" alignment="CENTER_RIGHT" prefHeight="39.0" prefWidth="1306.0" style="-fx-background-color: #E3E3E3;" text="Copyright © 2016 By ZZP ZWZ YQ HQT  " textAlignment="CENTER" textFill="#7b7b7b" BorderPane.alignment="CENTER_RIGHT">
+         <opaqueInsets>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </opaqueInsets>
+      </Label>
+   </bottom>
+   <center>
+      <StackPane>
+         <children>
+            <Pane id="pane" fx:id="fxPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+               <padding>
+                  <Insets left="100.0" top="80.0" />
+               </padding></Pane>
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="pane1" fx:id="fxPane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx.ControllerForPane1">
+   <children>
+      <HBox id="vboxInPane1" fx:id="fxVboxInPane1" alignment="CENTER_LEFT" layoutX="106.0" layoutY="96.0" prefHeight="534.0" prefWidth="859.0" spacing="56.0">
+         <children>
+            <Button id="button1InPane1" fx:id="fxButton1InPane1" mnemonicParsing="false" onAction="#action1" prefHeight="443.0" prefWidth="400.0" stylesheets="@MyStyles.css" text="日常消费登记" textFill="#7b7b7b">
+               <font>
+                  <Font name="Microsoft YaHei" size="31.0" />
+               </font>
+            </Button>
+            <Button id="button2InPane1" fx:id="fxButton2InPane1" lineSpacing="57.0" mnemonicParsing="false" onAction="#action2" prefHeight="443.0" prefWidth="400.0" stylesheets="@MyStyles.css" text="外出活动消费登记" textFill="#7b7b7b">
+               <font>
+                  <Font name="Microsoft YaHei" size="31.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</Pane>

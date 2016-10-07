@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="DialogABorderPane" fx:id="fxDialogABorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fx.ControllerForPane1DialogA">
+   <top>
+      <VBox>
+         <children>
+            <Label prefHeight="63.0" prefWidth="600.0" text="消费用途" textFill="#7b7b7b" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="26.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="20.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Label>
+            <TextArea id="dialogAText1" fx:id="fxDialogAText1" prefHeight="240.0" prefWidth="600.0" promptText="例如：吃饭，购物....">
+               <font>
+                  <Font name="Microsoft YaHei" size="21.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </VBox.margin>
+            </TextArea>
+         </children>
+      </VBox>
+   </top>
+   <bottom>
+      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="dialogAButtonTrue" fx:id="fxDialogAButtonTrue" alignment="CENTER" mnemonicParsing="false" onAction="#actionTrue" prefHeight="54.0" prefWidth="78.0" stylesheets="@MyStyles.css" text="确定">
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="dialogAButtonFalse" fx:id="fxDialogAButtonFalse" alignment="CENTER" mnemonicParsing="false" onAction="#actionFalse" prefHeight="54.0" prefWidth="78.0" stylesheets="@MyStyles.css" text="取消">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="18.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="63.0" prefWidth="600.0" text="消费金额" textFill="#7b7b7b">
+               <font>
+                  <Font name="Microsoft YaHei Bold" size="26.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="20.0" right="5.0" top="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </Label>
+            <TextField id="dialogAText2" fx:id="fxDialogAText2" prefHeight="61.0" prefWidth="651.0" promptText="请输入有效数字">
+               <font>
+                  <Font name="Microsoft YaHei" size="21.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="15.0" right="15.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
